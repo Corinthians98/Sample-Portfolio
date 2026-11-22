@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- 
+Corinthians Herring 
+Portfolio
+January 20, 2024
+ -->
+<html lang="en">
+<head>
+	<title>Corinthians Herring &nbsp; &#9475; &nbsp; Educator/Writer/Web &nbsp; &#9475; &nbsp; Contact Me</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/styles.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192x192.png">
+</head>
+
+<body>
+	
+	<!--Mobile Nav-->
+	<nav class="mobile-nav">
+		<div id="menu-links">
+			<a href="index.html">Home</a>
+			<a href="about.html">About me</a>
+			<a href="career.html">Career/Education</a>
+			<a href="contact.html">Contact me</a>
+		</div>
+		<a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+		</a>
+	</nav>
+	
+	<header>
+		<h1>Corinthians Herring <span class="tablet-desktop">Educator/Writer/Web</span></h1>
+		<figure>
+			<a href="index.html"><img src="images/image_corinthians.jpg" alt="Image of Corinthians Herring" class="round"></a>
+			<figcaption class="tablet-desktop text-cap"> Working toward a career in education, writing, and technology. </figcaption>
+		</figure>
+	</header>
+	
+	<nav class="tablet-desktop">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About me</a></li>
+			<li><a href="career.html">Career/Education</a></li>
+			<li><a href="contact.html">Contact me</a></li>
+		</ul>
+	</nav>
+	
+	<!-- Use the main area to add the main content of the webpage -->
+	<main>
+		
+		<div id="contact">
+			<h2>If you have any questions don't be afraid to contact me.</h2>
+			<h4>Call me: (616) 331-5000</h4>
+			<h4>Email me: <a href="mailto:herrinco@mail.gvsu.net">herrinco@mail.gvsu.net</a></h4>
+			<h4>Visit: 1 Campus Drive, Allendale, MI 49401</h4>
+				
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2919.7943350568876!2d-85.89053252379102!3d42.961538296890105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8819a320c18aa107%3A0x6db3762f5a202a28!2s1%20Campus%20Dr%2C%20Allendale%2C%20MI%2049401!5e0!3m2!1sen!2sus!4v1706362207430!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+				
+		</div>
+		
+		<div id="form">
+			<h2>Contact Me</h2>
+			<form class="form-grid">
+				<fieldset class="c-info">
+					<legend>Your Contact Information</legend>
+					
+					<label for="firstname">First Name</label>
+					<input type="text" id="firstname" name="firstname" placeholder="Your first name here" required>
+					
+					<label for="lastname">Last Name</label>
+					<input type="text" id="lastname" name="lastname" placeholder="Your last name here" required>
+					
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" placeholder="Your Email address here" required>
+					
+					<label for="phone">Phone</label>
+					<input type="tel" id="phone" name="phone" placeholder="Your phone number here">
+				</fieldset>
+				
+				<fieldset>
+					<legend>Message Me</legend>
+					<label for="subject">Subject</label>
+					<input type="text" id="subject" name="subject" required>
+					
+					<label for="message/questions">Message/Questions</label>
+					<textarea id="message/questions" name="message/questions" rows="5" cols="35" required></textarea>
+				</fieldset>
+				
+				<input type="submit" id="submit" value="Submit" class="btn">
+			</form>
+		</div>
+		
+	</main>
+	
+	<footer>
+		<p>&copy; Copyright 2024. All Rights Reserved.</p>
+		<p><a href="mailto:herrinco@mail.gvsu.net">herrinco@mail.gvsu.net</a></p>
+	</footer>
+	
+	<script src="scripts/script.js"></script>
+</body>
+
+</html>
